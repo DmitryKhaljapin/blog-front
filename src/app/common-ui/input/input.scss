@@ -1,0 +1,22 @@
+input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid var(--dark-brass);
+  border-radius: 4px;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 24px;
+
+  box-sizing: border-box;
+
+  color: var(--ink);
+
+  &::placeholder {
+    color: var(--dark-brass);
+  }
+
+  &:focus {
+    outline: none;
+    outline: 3px solid #caa75a;
+  }
+}
