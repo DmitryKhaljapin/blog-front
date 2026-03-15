@@ -1,0 +1,12 @@
+<a class="wrapper" [routerLink]="to">
+  <div class="outer">
+    <div class="inner">
+      <ng-content></ng-content>
+    </div>
+  </div>
+  <div class="toggle-switch">
+    <div class="switch" type="checkbox" [attr.data-active]="isActive"></div>
+    <span class="knob"></span>
+    <span class="light"></span>
+  </div>
+</a>
