@@ -5,9 +5,5 @@ import { routes } from './app.routes';
 import { provideStore } from '@ngrx/store';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideBrowserGlobalErrorListeners(),
-    provideRouter(routes),
-    provideStore()
-]
+  providers: [provideBrowserGlobalErrorListeners(), provideRouter(routes), provideStore()],
 };

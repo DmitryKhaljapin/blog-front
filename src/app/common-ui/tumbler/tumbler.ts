@@ -21,6 +21,7 @@ export class Tumbler {
       .subscribe((event: NavigationEnd) => {
         const currentUrl = event.urlAfterRedirects;
         if (currentUrl.includes(this.to)) this.isActive = true;
+        else this.isActive = false;
       });
   }
 }
