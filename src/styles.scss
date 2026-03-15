@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --brass: #b08d57;
+  --dark-brass: #7a5a2b;
+  --copper: #b87333;
+  --dark-copper: #6e3f1c;
+  --parchment: #f4e1c1;
+  --ink: #2b1b0f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Georgia', serif;
+  background: linear-gradient(#5c3a21, #2d1b0f) no-repeat;
+
+  color: var(--ink);
+}
