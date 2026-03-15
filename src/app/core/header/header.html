@@ -8,13 +8,24 @@
   <app-steam class="left-steam"></app-steam>
   <app-steam class="right-steam"></app-steam>
 
-  <div class="title-box">
-    <h1>KULICHIK</h1>
-    <h2>BLOG</h2>
+  <div class="content">
+    <nav class="nav-bar">
+      <app-tumbler to="home">Home</app-tumbler>
+      <app-tumbler to="posts">Posts</app-tumbler>
+    </nav>
+    <div class="title-box">
+      <h1>KULICHIK</h1>
+      <!-- <h2>BLOG</h2> -->
+      <div class="sub-title">
+        <app-nixie>B</app-nixie>
+        <app-nixie>L</app-nixie>
+        <app-nixie>O</app-nixie>
+        <app-nixie>G</app-nixie>
+      </div>
+    </div>
+    <nav class="nav-bar">
+      <app-tumbler to="login">login</app-tumbler>
+      <app-tumbler to="register">Registration</app-tumbler>
+    </nav>
   </div>
-  <nav class="nav-bar">
-    <app-nav-link class="nav-btn" to="/">Home</app-nav-link>
-    <app-nav-link class="nav-btn" to="/posts">Posts</app-nav-link>
-    <app-nav-link class="nav-btn" to="/register">Register</app-nav-link>
-  </nav>
 </header>

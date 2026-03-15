@@ -46,6 +46,13 @@
   pointer-events: none;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+
+  gap: 50px;
+}
+
 .title-box h1 {
   margin: 0;
 
@@ -60,28 +67,32 @@
     0 8px 12px rgba(0, 0, 0, 0.8);
 }
 
-.title-box h2 {
-  margin-top: 8px;
+// .title-box h2 {
+//   margin-top: 8px;
 
-  font-size: clamp(22px, 3vw, 34px);
+//   font-size: clamp(22px, 3vw, 34px);
 
-  color: #d7a05d;
+//   color: #d7a05d;
 
-  letter-spacing: 4px;
+//   letter-spacing: 4px;
 
-  text-shadow:
-    0 2px 0 #5a2e0f,
-    0 6px 10px rgba(0, 0, 0, 0.8);
+//   text-shadow:
+//     0 2px 0 #5a2e0f,
+//     0 6px 10px rgba(0, 0, 0, 0.8);
+// }
+
+.sub-title {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
 
 .nav-bar {
-  margin-top: 35px;
-
   display: flex;
 
   justify-content: center;
 
-  gap: 20px;
+  gap: 50px;
 
   flex-wrap: wrap;
 }
